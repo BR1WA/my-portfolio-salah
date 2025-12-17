@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React.js and Vite, featuring stunning animations, 3D elements, and a sleek dark theme design.
 
-![Portfolio Home](./screenshots/image.png)
+![Portfolio Preview](./screenshots/home.png)
 
 ## ✨ Features
 
@@ -17,10 +17,16 @@ A modern, responsive portfolio website built with React.js and Vite, featuring s
 ## 📸 Screenshots
 
 ### Home Section
-![Home Section](./screenshots/image.png)
+![Home Section](./screenshots/home.png)
 
 ### About Section
-![About Section](./screenshots/image2.png)
+![About Section](./screenshots/about.png)
+
+### Portfolio Section
+![Portfolio Section](./screenshots/portfolio.png)
+
+### Contact Section
+![Contact Section](./screenshots/contact.png)
 
 ## 🛠️ Tech Stack
 
