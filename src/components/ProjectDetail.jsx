@@ -19,7 +19,7 @@ const TECH_ICONS = {
 
 const TechBadge = ({ tech }) => {
   const Icon = TECH_ICONS[tech] || TECH_ICONS["default"];
-  
+
   return (
     <div className="group relative overflow-hidden px-3 py-2 md:px-4 md:py-2.5 bg-gradient-to-r from-blue-600/10 to-purple-600/10 rounded-xl border border-blue-500/10 hover:border-blue-500/30 transition-all duration-300 cursor-default">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/10 group-hover:to-purple-500/10 transition-all duration-500" />
@@ -61,7 +61,7 @@ const ProjectStats = ({ project }) => {
         </div>
         <div className="flex-grow">
           <div className="text-lg md:text-xl font-semibold text-blue-200">{techStackCount}</div>
-          <div className="text-[10px] md:text-xs text-gray-400">Total Teknologi</div>
+          <div className="text-[10px] md:text-xs text-gray-400">Total Technologies</div>
         </div>
       </div>
 
@@ -71,7 +71,7 @@ const ProjectStats = ({ project }) => {
         </div>
         <div className="flex-grow">
           <div className="text-lg md:text-xl font-semibold text-purple-200">{featuresCount}</div>
-          <div className="text-[10px] md:text-xs text-gray-400">Fitur Utama</div>
+          <div className="text-[10px] md:text-xs text-gray-400">Key Features</div>
         </div>
       </div>
     </div>
@@ -82,9 +82,9 @@ const handleGithubClick = (githubLink) => {
   if (githubLink === 'Private') {
     Swal.fire({
       icon: 'info',
-      title: 'Source Code Private',
-      text: 'Maaf, source code untuk proyek ini bersifat privat.',
-      confirmButtonText: 'Mengerti',
+      title: 'Private Source Code',
+      text: 'Sorry, the source code for this project is private.',
+      confirmButtonText: 'OK',
       confirmButtonColor: '#3085d6',
       background: '#030014',
       color: '#ffffff'
@@ -104,13 +104,13 @@ const ProjectDetails = () => {
     window.scrollTo(0, 0);
     const storedProjects = JSON.parse(localStorage.getItem("projects")) || [];
     const selectedProject = storedProjects.find((p) => String(p.id) === id);
-    
+
     if (selectedProject) {
       const enhancedProject = {
         ...selectedProject,
         Features: selectedProject.Features || [],
         TechStack: selectedProject.TechStack || [],
-        Github: selectedProject.Github || 'https://github.com/EkiZR',
+        Github: selectedProject.Github || 'https://github.com/BR1WA',
       };
       setProject(enhancedProject);
     }
@@ -221,7 +221,7 @@ const ProjectDetails = () => {
 
             <div className="space-y-6 md:space-y-10 animate-slideInRight">
               <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
-              
+
                 <div className="absolute inset-0 bg-gradient-to-t from-[#030014] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <img
                   src={project.Img}
