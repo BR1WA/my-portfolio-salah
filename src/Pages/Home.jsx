@@ -81,7 +81,7 @@ const WORDS = ["AI & Data Science Master's Student", "Machine Learning Engineer"
 const TECH_STACK = ["Python", "TensorFlow", "React", "Django"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/BR1WA" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/salah-eddine-zouitni/" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/salah-eddine-zouitni-229404239/" },
 ];
 
 const Home = () => {
