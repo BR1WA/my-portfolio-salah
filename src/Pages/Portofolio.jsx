@@ -158,6 +158,16 @@ export default function FullWidthTabs() {
       TechStack: ["React", "Laravel", "MySQL", "Tailwind"],
       Features: ["Digital employee management", "Automated certificate issuance", "Custom statistics dashboard", "Role-based access control"]
     },
+    {
+      id: 4,
+      Title: "InfinityScript.CV",
+      Description: "Dynamic and feature-rich resume builder built with React.js and Laravel. Provides a user-friendly interface for creating professional resumes with multilingual support (English & Arabic) and PDF export.",
+      Img: "/projects/infinity-script-cv.png",
+      Link: "https://github.com/BR1WA/InfinityScript.CV",
+      Github: "https://github.com/BR1WA/InfinityScript.CV",
+      TechStack: ["React", "Laravel", "MySQL", "Tailwind"],
+      Features: ["Free Resume Creation", "Multilingual Support (English/Arabic)", "PDF Download", "User-friendly Interface"]
+    }
   ];
 
   // Static certificates (diplomas) data from resume
