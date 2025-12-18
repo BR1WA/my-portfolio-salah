@@ -12,6 +12,7 @@ import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from 'framer-motion';
 import notfound from "./Pages/404";
 import NotFoundPage from "./Pages/404";
+import { Analytics } from "@vercel/analytics/react";
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   return (
@@ -70,13 +71,16 @@ function App() {
   const [showWelcome, setShowWelcome] = useState(true);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />} />
-        <Route path="/project/:id" element={<ProjectPageLayout />} />
-        <Route path="*" element={<NotFoundPage />} /> {/* Ini route 404 */}
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />} />
+          <Route path="/project/:id" element={<ProjectPageLayout />} />
+          <Route path="*" element={<NotFoundPage />} /> {/* Ini route 404 */}
+        </Routes>
+      </BrowserRouter>
+      <Analytics />
+    </>
   );
 }
 
