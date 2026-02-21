@@ -15,7 +15,7 @@ import TechStackIcon from "../components/TechStackIcon";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Certificate from "../components/Certificate";
-import { Code, Award, Boxes } from "lucide-react";
+import { Code, GraduationCap, Boxes } from "lucide-react";
 
 
 const ToggleButton = ({ onClick, isShowingMore }) => (
@@ -122,7 +122,7 @@ export default function FullWidthTabs() {
   const theme = useTheme();
   const [value, setValue] = useState(0);
   const [showAllProjects, setShowAllProjects] = useState(false);
-  const [showAllCertificates, setShowAllCertificates] = useState(false);
+  const [showAllEducation, setShowAllEducation] = useState(false);
   const isMobile = window.innerWidth < 768;
   const initialItems = isMobile ? 4 : 6;
 
@@ -170,29 +170,33 @@ export default function FullWidthTabs() {
     }
   ];
 
-  // Static certificates (diplomas) data from resume
-  const certificates = [
+  // Static education data from resume
+  const education = [
     {
       id: 1,
       Title: "Master in AI and Data Science",
-      Img: null,
+      institution: "Faculty of Sciences, Tétouan",
+      year: "2024 - Present",
       inProgress: true,
       progressNote: "In Progress - 2nd Year"
     },
     {
       id: 2,
       Title: "Licence in Software and Web Development",
-      Img: "/certificates/bac 3 1.pdf"
+      institution: "Faculty of Sciences, Tétouan",
+      year: "2021 - 2024"
     },
     {
       id: 3,
       Title: "BTS in Web Conception and Multimedia",
-      Img: "/certificates/bts.pdf"
+      institution: "ISTA NTIC, Tangier",
+      year: "2019 - 2021"
     },
     {
       id: 4,
       Title: "Baccalauréat in Physical Sciences",
-      Img: "/certificates/bac front.pdf"
+      institution: "High School",
+      year: "2019"
     },
   ];
 
@@ -202,7 +206,7 @@ export default function FullWidthTabs() {
     });
     // Store in localStorage for the About page stats
     localStorage.setItem("projects", JSON.stringify(projects));
-    localStorage.setItem("certificates", JSON.stringify(certificates));
+    localStorage.setItem("education", JSON.stringify(education));
   }, []);
 
   const handleChange = (event, newValue) => {
@@ -213,12 +217,12 @@ export default function FullWidthTabs() {
     if (type === 'projects') {
       setShowAllProjects(prev => !prev);
     } else {
-      setShowAllCertificates(prev => !prev);
+      setShowAllEducation(prev => !prev);
     }
   }, []);
 
   const displayedProjects = showAllProjects ? projects : projects.slice(0, initialItems);
-  const displayedCertificates = showAllCertificates ? certificates : certificates.slice(0, initialItems);
+  const displayedEducation = showAllEducation ? education : education.slice(0, initialItems);
 
   // Sisa dari komponen (return statement) tidak ada perubahan
   return (
@@ -237,7 +241,7 @@ export default function FullWidthTabs() {
           </span>
         </h2>
         <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2">
-          Explore my journey through projects, certifications, and technical expertise.
+          Explore my journey through projects, education, and technical expertise.
           Each section represents a milestone in my continuous learning path.
         </p>
       </div>
@@ -317,8 +321,8 @@ export default function FullWidthTabs() {
               {...a11yProps(0)}
             />
             <Tab
-              icon={<Award className="mb-2 w-5 h-5 transition-all duration-300" />}
-              label="Certificates"
+              icon={<GraduationCap className="mb-2 w-5 h-5 transition-all duration-300" />}
+              label="Education"
               {...a11yProps(1)}
             />
             <Tab
@@ -367,27 +371,28 @@ export default function FullWidthTabs() {
           <TabPanel value={value} index={1} dir={theme.direction}>
             <div className="container mx-auto flex justify-center items-center overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
-                {displayedCertificates.map((certificate, index) => (
+                {displayedEducation.map((edu, index) => (
                   <div
-                    key={certificate.id || index}
+                    key={edu.id || index}
                     data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"}
                     data-aos-duration={index % 3 === 0 ? "1000" : index % 3 === 1 ? "1200" : "1000"}
                   >
                     <Certificate
-                      ImgSertif={certificate.Img}
-                      title={certificate.Title}
-                      inProgress={certificate.inProgress}
-                      progressNote={certificate.progressNote}
+                      title={edu.Title}
+                      institution={edu.institution}
+                      year={edu.year}
+                      inProgress={edu.inProgress}
+                      progressNote={edu.progressNote}
                     />
                   </div>
                 ))}
               </div>
             </div>
-            {certificates.length > initialItems && (
+            {education.length > initialItems && (
               <div className="mt-6 w-full flex justify-start">
                 <ToggleButton
-                  onClick={() => toggleShowMore('certificates')}
-                  isShowingMore={showAllCertificates}
+                  onClick={() => toggleShowMore('education')}
+                  isShowingMore={showAllEducation}
                 />
               </div>
             )}

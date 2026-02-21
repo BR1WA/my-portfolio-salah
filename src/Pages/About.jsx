@@ -1,5 +1,5 @@
 import React, { useEffect, memo, useMemo } from "react"
-import { FileText, Code, Award, Globe, ArrowUpRight, Sparkles, UserCheck } from "lucide-react"
+import { FileText, Code, GraduationCap, Globe, ArrowUpRight, Sparkles, UserCheck } from "lucide-react"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -114,9 +114,9 @@ const StatCard = memo(({ icon: Icon, color, value, label, description, animation
 
 const AboutPage = () => {
   // Memoized calculations
-  const { totalProjects, totalCertificates, YearExperience } = useMemo(() => {
+  const { totalProjects, totalEducation, YearExperience } = useMemo(() => {
     const storedProjects = JSON.parse(localStorage.getItem("projects") || "[]");
-    const storedCertificates = JSON.parse(localStorage.getItem("certificates") || "[]");
+    const storedEducation = JSON.parse(localStorage.getItem("education") || "[]");
 
     const startDate = new Date("2021-09-01");
     const today = new Date();
@@ -125,7 +125,7 @@ const AboutPage = () => {
 
     return {
       totalProjects: storedProjects.length,
-      totalCertificates: storedCertificates.length,
+      totalEducation: storedEducation.length,
       YearExperience: experience
     };
   }, []);
@@ -165,11 +165,11 @@ const AboutPage = () => {
       animation: "fade-right",
     },
     {
-      icon: Award,
+      icon: GraduationCap,
       color: "from-[#a855f7] to-[#6366f1]",
-      value: totalCertificates,
-      label: "Certificates",
-      description: "Professional skills validated",
+      value: totalEducation,
+      label: "Education",
+      description: "Academic milestones achieved",
       animation: "fade-up",
     },
     {
@@ -180,7 +180,7 @@ const AboutPage = () => {
       description: "Continuous learning journey",
       animation: "fade-left",
     },
-  ], [totalProjects, totalCertificates, YearExperience]);
+  ], [totalProjects, totalEducation, YearExperience]);
 
   return (
     <div
