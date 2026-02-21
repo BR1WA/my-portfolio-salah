@@ -214,7 +214,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              Aspiring Data Scientist and AI Engineer currently pursuing advanced studies in AI and Data Science. Combining technical expertise in Python, Deep Learning, TensorFlow/Keras with practical full-stack development experience using React.js and Django. Passionate about leveraging machine learning to transform data into actionable insights.
+              Dynamic Software Developer and AI Engineer pursuing a Master's in AI and Data Science. Combining strong foundations in full-stack web development (React, Java, Laravel) with technical expertise in Python and Machine Learning. Passionate about building robust, scalable applications, writing clean code, and delivering impactful web solutions powered by intelligent systems.
             </p>
 
             {/* Quote Section */}

@@ -25,7 +25,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Data Scientist
+          Software Developer
         </span>
       </span>
       <br />
@@ -77,8 +77,8 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["AI & Data Science Master's Student", "Machine Learning Engineer", "Full Stack Developer"];
-const TECH_STACK = ["Python", "TensorFlow", "React", "Django"];
+const WORDS = ["Full Stack Developer", "AI & Data Science Master's Student", "Machine Learning Engineer"];
+const TECH_STACK = ["React", "Laravel", "Python", "TensorFlow"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/BR1WA" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/salah-eddine-zouitni-229404239/" },
@@ -181,7 +181,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Passionate about leveraging machine learning to transform data into actionable insights and building innovative AI solutions.
+                  Building robust, scalable web applications and leveraging AI to deliver impactful, intelligent solutions.
                 </p>
 
                 {/* Tech Stack */}
