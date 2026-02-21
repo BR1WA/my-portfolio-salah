@@ -104,18 +104,22 @@ function a11yProps(index) {
 
 // techStacks updated to match resume skills
 const techStacks = [
+  // Web Development
   { icon: "python.svg", language: "Python" },
-  { icon: "tensorflow.svg", language: "TensorFlow" },
   { icon: "reactjs.svg", language: "ReactJS" },
   { icon: "javascript.svg", language: "JavaScript" },
   { icon: "tailwind.svg", language: "Tailwind CSS" },
   { icon: "html.svg", language: "HTML" },
   { icon: "css.svg", language: "CSS" },
   { icon: "bootstrap.svg", language: "Bootstrap" },
-  { icon: "nodejs.svg", language: "Django" },
-  { icon: "firebase.svg", language: "Flask" },
-  { icon: "vite.svg", language: "Git" },
-  { icon: "MUI.svg", language: "MySQL" },
+  // ML / DL / Data Science
+  { icon: "tensorflow.svg", language: "TensorFlow" },
+  { icon: "keras.svg", language: "Keras" },
+  { icon: "pytorch.svg", language: "PyTorch" },
+  { icon: "scikitlearn.svg", language: "Scikit-learn" },
+  { icon: "pandas.svg", language: "Pandas" },
+  { icon: "numpy.svg", language: "NumPy" },
+  { icon: "matplotlib.svg", language: "Matplotlib" },
 ];
 
 export default function FullWidthTabs() {
