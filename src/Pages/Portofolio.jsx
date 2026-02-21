@@ -114,7 +114,7 @@ const techStacks = [
   { icon: "tailwind.svg", language: "Tailwind CSS" },
   { icon: "html.svg", language: "HTML" },
   { icon: "css.svg", language: "CSS" },
-  { icon: "bootstrap.svg", language: "Bootstrap" },
+  { icon: "flutter.svg", language: "Flutter" },
   { icon: "git.svg", language: "Git" },
   // ML / DL / Data Science
   { icon: "tensorflow.svg", language: "TensorFlow" },
