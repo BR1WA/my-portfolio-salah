@@ -175,28 +175,28 @@ export default function FullWidthTabs() {
     {
       id: 1,
       Title: "Master in AI and Data Science",
-      institution: "Faculty of Sciences, Tétouan",
-      year: "2024 - Present",
+      institution: "Faculty of Sciences (FS), Meknes",
+      year: "2024 – Present",
       inProgress: true,
       progressNote: "In Progress - 2nd Year"
     },
     {
       id: 2,
       Title: "Licence in Software and Web Development",
-      institution: "Faculty of Sciences, Tétouan",
-      year: "2021 - 2024"
+      institution: "École Normale Supérieure (ENS), Tetouan",
+      year: "2023 – 2024"
     },
     {
       id: 3,
       Title: "BTS in Web Conception and Multimedia",
-      institution: "ISTA NTIC, Tangier",
-      year: "2019 - 2021"
+      institution: "Technical High School",
+      year: "2021 – 2023"
     },
     {
       id: 4,
       Title: "Baccalauréat in Physical Sciences",
-      institution: "High School",
-      year: "2019"
+      institution: "",
+      year: "2020 – 2021"
     },
   ];
 

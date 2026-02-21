@@ -1,0 +1,82 @@
+Salah Eddine Zouitni
+Software Developer & AI Engineering Intern
+Professional Summary
+Dynamic Software Developer pursuing a Master’s in AI and Data Science. Combining strong foundations in
+full-stack web development (React, JAVA, Laravel) with technical expertise in Python and Machine Learning.
+Passionate about building robust, scalable applications, writing clean code, and working in collaborative
+environments. Seeking a software development internship to contribute to a dynamic developer team and
+deliver impactful web solutions.
+Technical Skills
+Web
+DevelopmentHTML5, CSS3, JavaScript, React.js, Tailwind CSS, Bootstrap
+Backend &
+ToolsPHP (Laravel), Flask, Java, C, Git, GitHub/GitLab, RESTful APIs
+Machine
+LearningScikit-learn, TensorFlow/Keras, CNNs, EfficientNet, Random Forest, Model Deployment
+Data Science Python (Pandas, NumPy), Data Visualization (Matplotlib, Seaborn), SQL, Data Cleaning
+Experience
+2024 (2 mo)Web Development & Data Intern,Faculty of Oussoul Eddine
+○Developed "HR-System", a full-stack platform usingReact.jsandLaravelto streamline HR
+workflows.
+○Implemented features for digital employee management and automated certificate issuance.
+○Engineered a custom statistics dashboard usingMySQLto visualize workforce data and metrics.
+○Repository:https://github.com/BR1WA/HR-System
+2023 (1 mo)Full Stack Development Intern,Green Rever
+○Developed responsive user interfaces using HTML, CSS, and JavaScript.
+○Supported the backend team in API integration and server-side logic using Python frameworks.
+○Participated in collaborative development workflows and version control.
+2022 (15
+days)IT Support Intern,Presidency of Ibn Zohr University
+Provided technical support and assisted in software deployment and network troubleshooting.
+Key Projects
+2025GastroEndoNet AI Classifier,Personal Project
+High-performance deep learning web application for gastrointestinal disease classification.
+○Fine-tuned anEfficientNet-B3model using TensorFlow, achieving97% overall accuracyon test
+data.
+○Attained a near-perfect0.9997 AUCfor Polyp detection across 4 distinct classes.
+○Built a real-time web interface usingFlaskandTailwind CSSfor immediate image inference.
+○Repository:https://github.com/BR1WA/gastro-endo-net-ai
+Lotissement Dalia, Ait Yaazem – Agourai, Province El Hajeb – Morocco
+♂¶obile-alt+212 702 249 561•/envel⌢pesalaheddinezouitni00@gmail.com
+/linkedin-inLinkedIn Profile•GitHub Portfolio 1/2
+---
+2024ASL Alphabet Detection System,FS M1 Project
+Real-time computer vision system for American Sign Language recognition.
+○Designed and deployed a dual-model architecture (CNN & Random Forest) to classify 26 ASL hand
+gestures.
+○Achieved high accuracy inference on live video streams using OpenCV and MediaPipe for landmark
+detection.
+○Managed large model weights (170MB+) using Git LFS for efficient version control and deployment.
+○Repository:https://github.com/BR1WA/asl-alphabet-detection
+2023InfinityScript.CV (Resume Builder),ENS Tetouan Academic Project
+Collaborative full-stack web application for dynamic, multilingual resume creation.
+○Engineered a robust backend API usingLaraveland developed a responsive, user-friendly frontend
+withReact.js.
+○Implemented seamless multilingual support (English/Arabic) and integrated PDF generation for
+downloading polished resumes.
+○Collaborated within a 3-person developer team, managing features like user customization for
+education, experience, and skills sections.
+○Repository:https://github.com/BR1WA/InfinityScript.CV
+Education
+2024–PresentMaster in AI and Data Science,Faculty of Sciences (FS), Meknes
+Focusing on advanced machine learning, deep neural networks, software architecture, and big data
+analytics.
+2023–2024Licence in Software and Web Development,École Normale Supérieure (ENS), Tetouan
+Specialized in software engineering principles, database management, and backend architectures.
+2021–2023BTS in Web Conception and Multimedia,Technical High School
+Gained proficiency in front-end design, user experience (UX), and multimedia content creation.
+2020–2021Baccalauréat in Physical Sciences
+Strong foundation in mathematics and scientific methodology.
+Soft Skills
+○Problem Solving○Debugging
+○Adaptability○Continuous Learning
+○Effective Communication○Teamwork
+○Version Control (Git) Workflows
+Languages
+English Professional Proficiency
+French Professional Proficiency
+Arabic Native
+Lotissement Dalia, Ait Yaazem – Agourai, Province El Hajeb – Morocco
+♂¶obile-alt+212 702 249 561•/envel⌢pesalaheddinezouitni00@gmail.com
+/linkedin-inLinkedIn Profile•GitHub Portfolio 2/2
+---
