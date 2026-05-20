@@ -158,13 +158,13 @@ export default function FullWidthTabs() {
     },
     {
       id: 3,
-      Title: "HR-System",
-      Description: "Full-stack HR management platform built with React.js and Laravel. Features digital employee management, automated certificate issuance, and custom statistics dashboard with MySQL.",
+      Title: "HR-System (UAE Edition)",
+      Description: "Full-stack HR portal upgraded for Université Abdelmalek Essaâdi using Laravel 11 & React (Chakra UI). Features dark glassmorphic authentication, a requests inbox panel, and real-time alerts.",
       Img: "/projects/hr-system.png",
       Link: "https://github.com/BR1WA/HR-System",
       Github: "https://github.com/BR1WA/HR-System",
-      TechStack: ["React", "Laravel", "MySQL", "Tailwind"],
-      Features: ["Digital employee management", "Automated certificate issuance", "Custom statistics dashboard", "Role-based access control"]
+      TechStack: ["React", "Laravel", "MySQL", "Chakra UI"],
+      Features: ["Dark Glassmorphic Authentication Portal", "Real-time Demand Notification Alerts", "Certificate Management Inbox Dashboard", "Automated Official PDF Generation & Print"]
     },
     {
       id: 4,
