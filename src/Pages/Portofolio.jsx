@@ -138,26 +138,16 @@ export default function FullWidthTabs() {
   const projects = [
     {
       id: 1,
-      Title: "GastroEndoNet AI Classifier",
-      Description: "High-performance deep learning web application for gastrointestinal disease classification. Fine-tuned EfficientNet-B3 model achieving 97% accuracy with 0.9997 AUC for Polyp detection. Built with Flask and Tailwind CSS.",
-      Img: "/projects/gastro-endo-net.png",
-      Link: "https://github.com/BR1WA/gastro-endo-net-ai",
-      Github: "https://github.com/BR1WA/gastro-endo-net-ai",
-      TechStack: ["Python", "TensorFlow", "Flask", "Tailwind"],
-      Features: ["97% accuracy for disease classification", "Fine-tuned EfficientNet-B3", "0.9997 AUC for Polyp detection", "Real-time image classification"]
+      Title: "LFW Facial Recognition & Analytics",
+      Description: "Advanced face recognition and benchmarking system trained on the LFW dataset. Compares 90 unique deep learning combinations (combining ViT, Swin, ResNet backbones with classical & neural classifier heads) featuring real-time camera inference and custom performance dashboards.",
+      Img: "/projects/face-recognition.png",
+      Link: "https://github.com/BR1WA/FaceRecognition-LFW-Analytics",
+      Github: "https://github.com/BR1WA/FaceRecognition-LFW-Analytics",
+      TechStack: ["Python", "PyTorch", "Flask", "OpenCV"],
+      Features: ["Benchmarked 90 deep model combinations", "ViT, Swin, ResNet & ConvNeXt Backbones", "Real-time video inference & MTCNN face detection", "Interactive Metrics & Convergence Dashboard"]
     },
     {
       id: 2,
-      Title: "ASL Alphabet Detection System",
-      Description: "Real-time computer vision system for American Sign Language recognition. Dual-model architecture (CNN & Random Forest) classifying 26 ASL hand gestures using OpenCV and MediaPipe.",
-      Img: "/projects/asl-detection.png",
-      Link: "https://github.com/BR1WA/asl-alphabet-detection",
-      Github: "https://github.com/BR1WA/asl-alphabet-detection",
-      TechStack: ["Python", "OpenCV", "MediaPipe", "TensorFlow"],
-      Features: ["Real-time hand gesture recognition", "Dual-model architecture (CNN & Random Forest)", "26 ASL alphabet classifications", "Live webcam integration"]
-    },
-    {
-      id: 3,
       Title: "HR-System (UAE Edition)",
       Description: "Full-stack HR portal upgraded for Université Abdelmalek Essaâdi using Laravel 11 & React (Chakra UI). Features dark glassmorphic authentication, a requests inbox panel, and real-time alerts.",
       Img: "/projects/hr-system.png",
@@ -165,6 +155,16 @@ export default function FullWidthTabs() {
       Github: "https://github.com/BR1WA/HR-System",
       TechStack: ["React", "Laravel", "MySQL", "Chakra UI"],
       Features: ["Dark Glassmorphic Authentication Portal", "Real-time Demand Notification Alerts", "Certificate Management Inbox Dashboard", "Automated Official PDF Generation & Print"]
+    },
+    {
+      id: 3,
+      Title: "ASL Alphabet Detection System",
+      Description: "Real-time computer vision system for American Sign Language recognition. Dual-model architecture (CNN & Random Forest) classifying 26 ASL hand gestures using OpenCV and MediaPipe.",
+      Img: "/projects/asl-detection.png",
+      Link: "https://github.com/BR1WA/asl-alphabet-detection",
+      Github: "https://github.com/BR1WA/asl-alphabet-detection",
+      TechStack: ["Python", "OpenCV", "MediaPipe", "TensorFlow"],
+      Features: ["Real-time hand gesture recognition", "Dual-model architecture (CNN & Random Forest)", "26 ASL alphabet classifications", "Live webcam integration"]
     },
     {
       id: 4,
@@ -178,13 +178,13 @@ export default function FullWidthTabs() {
     },
     {
       id: 5,
-      Title: "LFW Facial Recognition & Analytics",
-      Description: "Advanced face recognition and benchmarking system trained on the LFW dataset. Compares 90 unique deep learning combinations (combining ViT, Swin, ResNet backbones with classical & neural classifier heads) featuring real-time camera inference and custom performance dashboards.",
-      Img: "/projects/face-recognition.png",
-      Link: "https://github.com/BR1WA/FaceRecognition-LFW-Analytics",
-      Github: "https://github.com/BR1WA/FaceRecognition-LFW-Analytics",
-      TechStack: ["Python", "PyTorch", "Flask", "OpenCV"],
-      Features: ["Benchmarked 90 deep model combinations", "ViT, Swin, ResNet & ConvNeXt Backbones", "Real-time video inference & MTCNN face detection", "Interactive Metrics & Convergence Dashboard"]
+      Title: "GastroEndoNet AI Classifier",
+      Description: "High-performance deep learning web application for gastrointestinal disease classification. Fine-tuned EfficientNet-B3 model achieving 97% accuracy with 0.9997 AUC for Polyp detection. Built with Flask and Tailwind CSS.",
+      Img: "/projects/gastro-endo-net.png",
+      Link: "https://github.com/BR1WA/gastro-endo-net-ai",
+      Github: "https://github.com/BR1WA/gastro-endo-net-ai",
+      TechStack: ["Python", "TensorFlow", "Flask", "Tailwind"],
+      Features: ["97% accuracy for disease classification", "Fine-tuned EfficientNet-B3", "0.9997 AUC for Polyp detection", "Real-time image classification"]
     }
   ];
 
