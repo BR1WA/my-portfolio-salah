@@ -175,6 +175,16 @@ export default function FullWidthTabs() {
       Github: "https://github.com/BR1WA/InfinityScript.CV",
       TechStack: ["React", "Laravel", "MySQL", "Tailwind"],
       Features: ["Free Resume Creation", "Multilingual Support (English/Arabic)", "PDF Download", "User-friendly Interface"]
+    },
+    {
+      id: 5,
+      Title: "LFW Facial Recognition & Analytics",
+      Description: "Advanced face recognition and benchmarking system trained on the LFW dataset. Compares 90 unique deep learning combinations (combining ViT, Swin, ResNet backbones with classical & neural classifier heads) featuring real-time camera inference and custom performance dashboards.",
+      Img: "/projects/face-recognition.png",
+      Link: "https://github.com/BR1WA/FaceRecognition-LFW-Analytics",
+      Github: "https://github.com/BR1WA/FaceRecognition-LFW-Analytics",
+      TechStack: ["Python", "PyTorch", "Flask", "OpenCV"],
+      Features: ["Benchmarked 90 deep model combinations", "ViT, Swin, ResNet & ConvNeXt Backbones", "Real-time video inference & MTCNN face detection", "Interactive Metrics & Convergence Dashboard"]
     }
   ];
 
